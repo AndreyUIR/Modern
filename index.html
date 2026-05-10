@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Основные мета-теги -->
     <meta name="description" content="Ресторан Модерн в центре Минска (пр-т Независимости, 19). Классическая и европейская кухня, стейки, паста, бизнес-ланчи, романтические ужины, банкеты. Забронируйте столик онлайн.">
-    <meta name="keywords" content="ресторан Минск, европейская кухня, классическая кухня, стейки, паста, бизнес-ланч, банкет, романтический ужин, ресторан Модерн, бронирование столика">
+    <meta name="keywords" content="ресторан Минск, европейская кухня, классическая кухня, стейки, паста, бизнес-ланч, банкет, романтический ужин, ресторан Модерн, бронирование столика, ресторан Минск центр, ресторан на Независимости">
     <meta name="author" content="Ресторан Модерн">
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="7 days">
+    <meta name="generator" content="Youware">
+    
+    <!-- Гео-теги для локального SEO (Яндекс) -->
+    <meta name="geo.region" content="BY-MI">
+    <meta name="geo.placename" content="Минск">
+    <meta name="geo.position" content="53.9045;27.5615">
+    <meta name="ICBM" content="53.9045, 27.5615">
+    
+    <!-- Yandex -->
+    <meta name="yandex-verification" content="XXXXXXXXXXXXXX">
     
     <!-- Open Graph -->
     <meta property="og:type" content="restaurant.restaurant">
@@ -17,6 +29,8 @@
     <meta property="og:url" content="https://ваш-сайт.by/">
     <meta property="og:site_name" content="Ресторан Модерн">
     <meta property="og:locale" content="ru_BY">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -27,12 +41,28 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://ваш-сайт.by/">
     
-    <!-- Preload fonts -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+    
+    <!-- Preload критические ресурсы -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.pixabay.com">
+    <link rel="dns-prefetch" href="https://cdn.pixabay.com">
+    <link rel="dns-prefetch" href="https://cdn-icons-png.flaticon.com">
+    
+    <!-- Шрифты -->
     <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
     
     <title>Ресторан Модерн в Минске | Европейская кухня, бизнес-ланч, банкеты</title>
+    
+    <!-- Критические стили inline для ускорения FCP -->
+    <style>
+        *,*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Georgia',serif;color:#333;line-height:1.6}.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('https://cdn.pixabay.com/photo/2016/11/22/18/58/bowl-1850039_1280.jpg') center/cover fixed;padding:0 20px}.hero h2{font-size:2.8rem;margin-bottom:25px;font-weight:500;text-shadow:3px 3px 6px rgba(0,0,0,0.8),0 0 30px rgba(0,0,0,0.5);letter-spacing:1px;line-height:1.2;color:#fff}.hero p{font-size:1.5rem;margin-bottom:35px;font-style:italic;text-shadow:2px 2px 4px rgba(0,0,0,0.9),0 0 20px rgba(0,0,0,0.5);color:#f5f5f5;font-weight:300;line-height:1.6}
+    </style>
+    
+    <!-- Non-critical styles -->
     <style>
         * {
             margin: 0;
@@ -40,11 +70,13 @@
             box-sizing: border-box;
         }
 
+
         body {
             font-family: 'Georgia', serif;
             color: #333;
             line-height: 1.6;
         }
+
 
         /* Header */
         header {
@@ -57,6 +89,7 @@
             z-index: 1000;
         }
 
+
         .header-content {
             max-width: 1200px;
             margin: 0 auto;
@@ -66,11 +99,13 @@
             padding: 0 20px;
         }
 
+
         .logo {
             display: flex;
             align-items: center;
             gap: 15px;
         }
+
 
         .logo img {
             width: 80px;
@@ -78,17 +113,20 @@
             border-radius: 50%;
         }
 
+
         .logo h1 {
             font-size: 1.8rem;
             font-weight: normal;
             letter-spacing: 2px;
         }
 
+
         nav ul {
             display: flex;
             list-style: none;
             gap: 30px;
         }
+
 
         nav a {
             color: white;
@@ -97,9 +135,11 @@
             transition: color 0.3s;
         }
 
+
         nav a:hover {
             color: #c9a962;
         }
+
 
         /* Hero Section */
         .hero {
@@ -112,9 +152,11 @@
             padding: 0 20px;
         }
 
+
         .hero-content {
             max-width: 800px;
         }
+
 
         .hero h2 {
             font-size: 2.8rem;
@@ -126,6 +168,7 @@
             color: #fff;
         }
 
+
         .hero p {
             font-size: 1.5rem;
             margin-bottom: 35px;
@@ -135,6 +178,7 @@
             font-weight: 300;
             line-height: 1.6;
         }
+
 
         .btn {
             display: inline-block;
@@ -147,15 +191,18 @@
             border: 2px solid #c9a962;
         }
 
+
         .btn:hover {
             background: transparent;
             color: #c9a962;
         }
 
+
         /* Sections */
         section {
             padding: 80px 20px;
         }
+
 
         .section-title {
             text-align: center;
@@ -164,15 +211,18 @@
             color: #2c2c2c;
         }
 
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
         }
 
+
         /* About */
         .about {
             background: #f9f9f9;
         }
+
 
         .about-content {
             display: grid;
@@ -181,11 +231,13 @@
             align-items: center;
         }
 
+
         .about-text p {
             font-size: 1.1rem;
             margin-bottom: 20px;
             text-align: justify;
         }
+
 
         .about-image img {
             width: 100%;
@@ -193,21 +245,25 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
+
         /* Features */
         .features {
             background: #2c2c2c;
             color: white;
         }
 
+
         .features .section-title {
             color: white;
         }
+
 
         .features-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 40px;
         }
+
 
         .feature-card {
             text-align: center;
@@ -217,9 +273,11 @@
             transition: transform 0.3s;
         }
 
+
         .feature-card:hover {
             transform: translateY(-10px);
         }
+
 
         .feature-card img {
             width: 80px;
@@ -229,21 +287,25 @@
             object-fit: cover;
         }
 
+
         .feature-card h3 {
             font-size: 1.4rem;
             margin-bottom: 15px;
             color: #c9a962;
         }
 
+
         .feature-card p {
             font-size: 1rem;
             opacity: 0.9;
         }
 
+
         /* Menu */
         .menu {
             background: #fff;
         }
+
 
         .menu-categories {
             display: flex;
@@ -251,6 +313,7 @@
             gap: 30px;
             margin-bottom: 50px;
         }
+
 
         .menu-category {
             padding: 12px 30px;
@@ -263,17 +326,20 @@
             border-radius: 5px;
         }
 
+
         .menu-category.active,
         .menu-category:hover {
             background: #c9a962;
             color: white;
         }
 
+
         .menu-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 40px;
         }
+
 
         .menu-item {
             display: flex;
@@ -284,9 +350,11 @@
             transition: box-shadow 0.3s;
         }
 
+
         .menu-item:hover {
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
+
 
         .menu-item img {
             width: 150px;
@@ -295,11 +363,13 @@
             border-radius: 10px;
         }
 
+
         .menu-item-content h3 {
             font-size: 1.4rem;
             margin-bottom: 10px;
             color: #2c2c2c;
         }
+
 
         .menu-item-content p {
             font-size: 0.95rem;
@@ -307,11 +377,13 @@
             margin-bottom: 15px;
         }
 
+
         .price {
             font-size: 1.3rem;
             color: #c9a962;
             font-weight: bold;
         }
+
 
         /* Atmosphere */
         .atmosphere {
@@ -319,15 +391,18 @@
             color: white;
         }
 
+
         .atmosphere .section-title {
             color: white;
         }
+
 
         .audience-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 40px;
         }
+
 
         .audience-card {
             text-align: center;
@@ -337,10 +412,12 @@
             transition: all 0.3s;
         }
 
+
         .audience-card:hover {
             background: rgba(201, 169, 98, 0.2);
             border-color: #c9a962;
         }
+
 
         .audience-card h3 {
             font-size: 1.5rem;
@@ -349,16 +426,19 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
 
+
         .audience-card p {
             font-size: 1.05rem;
             line-height: 1.8;
             text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
         }
 
+
         /* Contact */
         .contact {
             background: #f9f9f9;
         }
+
 
         .contact-content {
             display: grid;
@@ -366,11 +446,13 @@
             gap: 60px;
         }
 
+
         .contact-info h3 {
             font-size: 1.8rem;
             margin-bottom: 30px;
             color: #2c2c2c;
         }
+
 
         .contact-item {
             display: flex;
@@ -378,6 +460,7 @@
             gap: 20px;
             margin-bottom: 25px;
         }
+
 
         .contact-item img {
             width: 50px;
@@ -387,10 +470,12 @@
             padding: 12px;
         }
 
+
         .contact-item p {
             font-size: 1.1rem;
             line-height: 1.6;
         }
+
 
         .contact-form {
             background: white;
@@ -399,15 +484,18 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
+
         .contact-form h3 {
             font-size: 1.5rem;
             margin-bottom: 30px;
             color: #2c2c2c;
         }
 
+
         .form-group {
             margin-bottom: 20px;
         }
+
 
         .form-group label {
             display: block;
@@ -415,6 +503,7 @@
             font-weight: bold;
             color: #2c2c2c;
         }
+
 
         .form-group input,
         .form-group textarea {
@@ -426,10 +515,12 @@
             font-size: 1rem;
         }
 
+
         .form-group textarea {
             resize: vertical;
             min-height: 120px;
         }
+
 
         .contact-form .btn {
             width: 100%;
@@ -437,6 +528,7 @@
             cursor: pointer;
             font-family: inherit;
         }
+
 
         /* Footer */
         footer {
@@ -446,9 +538,11 @@
             text-align: center;
         }
 
+
         footer p {
             margin-bottom: 10px;
         }
+
 
         .social-links {
             display: flex;
@@ -456,6 +550,7 @@
             gap: 20px;
             margin-top: 20px;
         }
+
 
         .social-links a {
             display: inline-block;
@@ -471,9 +566,11 @@
             transition: transform 0.3s;
         }
 
+
         .social-links a:hover {
             transform: scale(1.1);
         }
+
 
         /* Responsive */
         @media (max-width: 768px) {
@@ -482,20 +579,24 @@
                 gap: 20px;
             }
 
+
             nav ul {
                 flex-wrap: wrap;
                 justify-content: center;
                 gap: 15px;
             }
 
+
             .hero h2 {
                 font-size: 2.5rem;
             }
+
 
             .about-content,
             .contact-content {
                 grid-template-columns: 1fr;
             }
+
 
             .features-grid,
             .menu-grid,
@@ -503,9 +604,11 @@
                 grid-template-columns: 1fr;
             }
 
+
             .menu-item {
                 flex-direction: column;
             }
+
 
             .menu-item img {
                 width: 100%;
@@ -516,38 +619,41 @@
 </head>
 <body>
 
+
     <!-- Header -->
-    <header role="banner">
+    <header role="banner" itemscope itemtype="https://schema.org/WPHeader">
         <div class="header-content">
             <div class="logo">
-                <img src="Рисунок1.jpg" alt="Логотип ресторана Модерн" width="80" height="80">
-                <h1>РЕСТОРАН МОДЕРН</h1>
+                <img src="Рисунок1.jpg" alt="Логотип ресторана Модерн" width="80" height="80" loading="eager">
+                <h1 itemprop="name">РЕСТОРАН МОДЕРН</h1>
             </div>
-            <nav role="navigation" aria-label="Главное меню">
+            <nav role="navigation" aria-label="Главное меню" itemscope itemtype="https://schema.org/SiteNavigationElement">
                 <ul>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#features">Особенности</a></li>
-                    <li><a href="#menu">Меню</a></li>
-                    <li><a href="#atmosphere">Атмосфера</a></li>
-                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#about" itemprop="url"><span itemprop="name">О нас</span></a></li>
+                    <li><a href="#features" itemprop="url"><span itemprop="name">Особенности</span></a></li>
+                    <li><a href="#menu" itemprop="url"><span itemprop="name">Меню</span></a></li>
+                    <li><a href="#atmosphere" itemprop="url"><span itemprop="name">Атмосфера</span></a></li>
+                    <li><a href="#contact" itemprop="url"><span itemprop="name">Контакты</span></a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
     <!-- Main Content -->
-    <main role="main">
+    <main role="main" itemscope itemtype="https://schema.org/WebPageElement" itemprop="mainContentOfPage">
         <!-- Hero Section -->
-        <section class="hero" aria-labelledby="hero-title">
+        <section class="hero" aria-labelledby="hero-title" itemscope itemtype="https://schema.org/WPSideBar">
             <div class="hero-content">
-                <h2 id="hero-title">Добро пожаловать в ресторан «Модерн»</h2>
-                <p>Из­ыс­кан­ная классическая и европейская кухня.<br>Уютная атмосфера для деловых встреч, романтических ужинов и особых моментов.</p>
+                <h1 id="hero-title" itemprop="headline">Добро пожаловать в ресторан «Модерн»</h1>
+                <p itemprop="description">Из­ыс­кан­ная классическая и европейская кухня.<br>Уютная атмосфера для деловых встреч, романтических ужинов и особых моментов.</p>
                 <a href="#menu" class="btn" aria-label="Просмотреть меню ресторана">Просмотреть меню</a>
             </div>
         </section>
 
+
         <!-- About Section -->
-        <section id="about" class="about" aria-labelledby="about-title">
+        <section id="about" class="about" aria-labelledby="about-title" itemscope itemtype="https://schema.org/AboutPage">
             <div class="container">
                 <h2 id="about-title" class="section-title">О нашем ресторане</h2>
                 <div class="about-content">
@@ -557,38 +663,40 @@
                         <p>Наша команда профессионалов использует только свежие продукты высочайшего качества, чтобы порадовать вас блюдами, которые запоминаются надолго.</p>
                     </div>
                     <div class="about-image">
-                        <img src="https://cdn.pixabay.com/photo/2016/11/22/18/58/bowl-1850039_640.jpg" alt="Интерьер ресторана Модерн - уютный зал с столиками" width="600" height="400">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/22/18/58/bowl-1850039_640.jpg" alt="Интерьер ресторана Модерн - уютный зал с столиками" width="600" height="400" loading="lazy">
                     </div>
                 </div>
             </div>
         </section>
 
+
         <!-- Features Section -->
-        <section id="features" class="features" aria-labelledby="features-title">
+        <section id="features" class="features" aria-labelledby="features-title" itemscope itemtype="https://schema.org/CreativeWork">
             <div class="container">
                 <h2 id="features-title" class="section-title">Наши особенности</h2>
                 <div class="features-grid">
-                    <article class="feature-card">
-                        <img src="https://cdn.pixabay.com/photo/2019/06/18/10/46/platting-4282016_640.jpg" alt="Блюдо классической кухни" width="80" height="80">
-                        <h3>Классическая кухня</h3>
-                        <p>Традиционные рецепты, отточенные до совершенства нашими шеф-поварами</p>
+                    <article class="feature-card" itemscope itemtype="https://schema.org/Offer">
+                        <img src="https://cdn.pixabay.com/photo/2019/06/18/10/46/platting-4282016_640.jpg" alt="Блюдо классической кухни" width="80" height="80" loading="lazy" itemprop="image">
+                        <h3 itemprop="name">Классическая кухня</h3>
+                        <p itemprop="description">Традиционные рецепты, отточенные до совершенства нашими шеф-поварами</p>
                     </article>
-                    <article class="feature-card">
-                        <img src="https://cdn.pixabay.com/photo/2021/02/08/12/40/lasagna-5994612_640.jpg" alt="Авторское блюдо из меню" width="80" height="80">
-                        <h3>Авторское меню</h3>
-                        <p>Уникальные блюда, созданные специально для нашего ресторана</p>
+                    <article class="feature-card" itemscope itemtype="https://schema.org/Offer">
+                        <img src="https://cdn.pixabay.com/photo/2021/02/08/12/40/lasagna-5994612_640.jpg" alt="Авторское блюдо из меню" width="80" height="80" loading="lazy" itemprop="image">
+                        <h3 itemprop="name">Авторское меню</h3>
+                        <p itemprop="description">Уникальные блюда, созданные специально для нашего ресторана</p>
                     </article>
-                    <article class="feature-card">
-                        <img src="https://cdn.pixabay.com/photo/2018/08/13/21/42/table-setting-3604064_640.jpg" alt="Сервировка стола в ресторане" width="80" height="80">
-                        <h3>Дружелюбная атмосфера</h3>
-                        <p>Уютный интерьер и радушный персонал для идеального вечера</p>
+                    <article class="feature-card" itemscope itemtype="https://schema.org/Offer">
+                        <img src="https://cdn.pixabay.com/photo/2018/08/13/21/42/table-setting-3604064_640.jpg" alt="Сервировка стола в ресторане" width="80" height="80" loading="lazy" itemprop="image">
+                        <h3 itemprop="name">Дружелюбная атмосфера</h3>
+                        <p itemprop="description">Уютный интерьер и радушный персонал для идеального вечера</p>
                     </article>
                 </div>
             </div>
         </section>
 
+
         <!-- Menu Section -->
-        <section id="menu" class="menu" aria-labelledby="menu-title">
+        <section id="menu" class="menu" aria-labelledby="menu-title" itemscope itemtype="https://schema.org/ItemPage">
             <div class="container">
                 <h2 id="menu-title" class="section-title">Наше меню</h2>
                 <div class="menu-categories" role="group" aria-label="Категории меню">
@@ -597,73 +705,74 @@
                     <button class="menu-category" onclick="filterMenu('main')" aria-pressed="false">Основные блюда</button>
                     <button class="menu-category" onclick="filterMenu('desserts')" aria-pressed="false">Десерты</button>
                 </div>
-                <div class="menu-grid" id="menuGrid" role="list">
-                    <div class="menu-item" data-category="appetizers" role="listitem">
-                        <img src="https://cdn.pixabay.com/photo/2018/06/19/10/16/lollo-rosso-3484159_640.jpg" alt="Салат Цезарь с куриной грудкой и пармезаном" width="150" height="150">
+                <div class="menu-grid" id="menuGrid" role="list" itemscope itemtype="https://schema.org/Menu">
+                    <div class="menu-item" data-category="appetizers" role="listitem" itemscope itemtype="https://schema.org/MenuItem">
+                        <img src="https://cdn.pixabay.com/photo/2018/06/19/10/16/lollo-rosso-3484159_640.jpg" alt="Салат Цезарь с куриной грудкой и пармезаном" width="150" height="150" loading="lazy" itemprop="hasMenuItem">
                         <div class="menu-item-content">
-                            <h3>Салат Цезарь</h3>
-                            <p>Классический салат с куриной грудкой, пармезаном и соусом Цезарь</p>
-                            <span class="price">25 ₽</span>
+                            <h3 itemprop="name">Салат Цезарь</h3>
+                            <p itemprop="description">Классический салат с куриной грудкой, пармезаном и соусом Цезарь</p>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="price">25</span> <span itemprop="priceCurrency">BYN</span></span>
                         </div>
                     </div>
-                    <div class="menu-item" data-category="appetizers" role="listitem">
-                        <img src="https://cdn.pixabay.com/photo/2016/04/27/16/26/bruschetta-1357024_640.jpg" alt="Брускетты с томатами и базиликом" width="150" height="150">
+                    <div class="menu-item" data-category="appetizers" role="listitem" itemscope itemtype="https://schema.org/MenuItem">
+                        <img src="https://cdn.pixabay.com/photo/2016/04/27/16/26/bruschetta-1357024_640.jpg" alt="Брускетты с томатами и базиликом" width="150" height="150" loading="lazy" itemprop="hasMenuItem">
                         <div class="menu-item-content">
-                            <h3>Брускетты с томатами</h3>
-                            <p>Хрустящий хлеб с свежими томатами, базиликом и оливковым маслом</p>
-                            <span class="price">15 ₽</span>
+                            <h3 itemprop="name">Брускетты с томатами</h3>
+                            <p itemprop="description">Хрустящий хлеб с свежими томатами, базиликом и оливковым маслом</p>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="price">15</span> <span itemprop="priceCurrency">BYN</span></span>
                         </div>
                     </div>
-                    <div class="menu-item" data-category="main" role="listitem">
-                        <img src="https://cdn.pixabay.com/photo/2016/09/21/13/49/steak-1684825_640.jpg" alt="Стейк Рибай с овощами гриль" width="150" height="150">
+                    <div class="menu-item" data-category="main" role="listitem" itemscope itemtype="https://schema.org/MenuItem">
+                        <img src="https://cdn.pixabay.com/photo/2016/09/21/13/49/steak-1684825_640.jpg" alt="Стейк Рибай с овощами гриль" width="150" height="150" loading="lazy" itemprop="hasMenuItem">
                         <div class="menu-item-content">
-                            <h3>Стейк Рибай</h3>
-                            <p>Сочный стейк из говядины с овощами гриль и соусом из красного вина</p>
-                            <span class="price">35 ₽</span>
+                            <h3 itemprop="name">Стейк Рибай</h3>
+                            <p itemprop="description">Сочный стейк из говядины с овощами гриль и соусом из красного вина</p>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="price">35</span> <span itemprop="priceCurrency">BYN</span></span>
                         </div>
                     </div>
-                    <div class="menu-item" data-category="main" role="listitem">
-                        <img src="https://cdn.pixabay.com/photo/2017/02/12/12/05/food-2059852_640.jpg" alt="Паста Карбонара с беконом" width="150" height="150">
+                    <div class="menu-item" data-category="main" role="listitem" itemscope itemtype="https://schema.org/MenuItem">
+                        <img src="https://cdn.pixabay.com/photo/2017/02/12/12/05/food-2059852_640.jpg" alt="Паста Карбонара с беконом" width="150" height="150" loading="lazy" itemprop="hasMenuItem">
                         <div class="menu-item-content">
-                            <h3>Паста Карбонара</h3>
-                            <p>Итальянская паста с беконом, яичным желтком и пармезаном</p>
-                            <span class="price">30 ₽</span>
+                            <h3 itemprop="name">Паста Карбонара</h3>
+                            <p itemprop="description">Итальянская паста с беконом, яичным желтком и пармезаном</p>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="price">30</span> <span itemprop="priceCurrency">BYN</span></span>
                         </div>
                     </div>
-                    <div class="menu-item" data-category="main" role="listitem">
-                        <img src="https://cdn.pixabay.com/photo/2016/06/28/17/32/salmon-1485014_640.jpg" alt="Лосось под сливочным соусом" width="150" height="150">
+                    <div class="menu-item" data-category="main" role="listitem" itemscope itemtype="https://schema.org/MenuItem">
+                        <img src="https://cdn.pixabay.com/photo/2016/06/28/17/32/salmon-1485014_640.jpg" alt="Лосось под сливочным соусом" width="150" height="150" loading="lazy" itemprop="hasMenuItem">
                         <div class="menu-item-content">
-                            <h3>Лосось под сливочным соусом</h3>
-                            <p>Нежное филе лосося с сливочным соусом и овощным гарниром</p>
-                            <span class="price">40 ₽</span>
+                            <h3 itemprop="name">Лосось под сливочным соусом</h3>
+                            <p itemprop="description">Нежное филе лосося с сливочным соусом и овощным гарниром</p>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="price">40</span> <span itemprop="priceCurrency">BYN</span></span>
                         </div>
                     </div>
-                    <div class="menu-item" data-category="desserts" role="listitem">
-                        <img src="https://cdn.pixabay.com/photo/2022/02/23/05/10/tiramisu-7030032_640.jpg" alt="Тирамису - классический итальянский десерт" width="150" height="150">
+                    <div class="menu-item" data-category="desserts" role="listitem" itemscope itemtype="https://schema.org/MenuItem">
+                        <img src="https://cdn.pixabay.com/photo/2022/02/23/05/10/tiramisu-7030032_640.jpg" alt="Тирамису - классический итальянский десерт" width="150" height="150" loading="lazy" itemprop="hasMenuItem">
                         <div class="menu-item-content">
-                            <h3>Тирамису</h3>
-                            <p>Классический итальянский десерт с маскарпоне и кофейным бисквитом</p>
-                            <span class="price">39 ₽</span>
+                            <h3 itemprop="name">Тирамису</h3>
+                            <p itemprop="description">Классический итальянский десерт с маскарпоне и кофейным бисквитом</p>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="price">39</span> <span itemprop="priceCurrency">BYN</span></span>
                         </div>
                     </div>
-                    <div class="menu-item" data-category="desserts" role="listitem">
-                        <img src="https://cdn.pixabay.com/photo/2016/11/29/11/38/cake-1869227_640.jpg" alt="Чизкейк Нью-Йорк с ягодным соусом" width="150" height="150">
+                    <div class="menu-item" data-category="desserts" role="listitem" itemscope itemtype="https://schema.org/MenuItem">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/29/11/38/cake-1869227_640.jpg" alt="Чизкейк Нью-Йорк с ягодным соусом" width="150" height="150" loading="lazy" itemprop="hasMenuItem">
                         <div class="menu-item-content">
-                            <h3>Чизкейк Нью-Йорк</h3>
-                            <p>Нежнейший чизкейк с ягодным соусом и взбитыми сливками</p>
-                            <span class="price">25 ₽</span>
+                            <h3 itemprop="name">Чизкейк Нью-Йорк</h3>
+                            <p itemprop="description">Нежнейший чизкейк с ягодным соусом и взбитыми сливками</p>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer"><span itemprop="price">25</span> <span itemprop="priceCurrency">BYN</span></span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+
         <!-- Atmosphere Section -->
-        <section id="atmosphere" class="atmosphere" aria-labelledby="atmosphere-title">
+        <section id="atmosphere" class="atmosphere" aria-labelledby="atmosphere-title" itemscope itemtype="https://schema.org/CreativeWork">
             <div class="container">
                 <h2 id="atmosphere-title" class="section-title">Атмосфера для каждого</h2>
                 <div class="audience-grid">
-                    <article class="audience-card">
+                    <article class="audience-card" itemscope itemtype="https://schema.org/FAQPage">
                         <h3>💼 Для бизнесменов</h3>
                         <p>Идеальное место для деловых встреч и переговоров. Уютные переговорные зоны, тихая атмосфера и превосходное меню для бизнес-ланчей.</p>
                     </article>
@@ -679,36 +788,38 @@
             </div>
         </section>
 
+
         <!-- Contact Section -->
-        <section id="contact" class="contact" aria-labelledby="contact-title">
+        <section id="contact" class="contact" aria-labelledby="contact-title" itemscope itemtype="https://schema.org/ContactPage">
             <div class="container">
                 <h2 id="contact-title" class="section-title">Свяжитесь с нами</h2>
                 <div class="contact-content">
-                    <div class="contact-info">
+                    <div class="contact-info" itemscope itemtype="https://schema.org/Restaurant" itemref="restaurantSchema">
                         <h3>Наши контакты</h3>
-                        <div class="contact-item">
-                            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Иконка адреса" width="50" height="50">
-                            <p><strong>Адрес:</strong><br>пр-т Независимости, 19<br>Минск, Беларусь</p>
+                        <div class="contact-item" itemscope itemtype="https://schema.org/PostalAddress" itemprop="address">
+                            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Иконка адреса" width="50" height="50" loading="lazy">
+                            <p><strong>Адрес:</strong><br><span itemprop="streetAddress">пр-т Независимости, 19</span><br><span itemprop="addressLocality">Минск</span>, <span itemprop="addressCountry">Беларусь</span></p>
+                        </div>
+                        <div class="contact-item" itemscope itemtype="https://schema.org/ContactPoint" itemprop="contactPoint">
+                            <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="Иконка телефона" width="50" height="50" loading="lazy">
+                            <p><strong>Телефон:</strong><br><a href="tel:+375291234567" itemprop="telephone">+375 29 123-45-67</a><br><a href="tel:+375297654321">+375 29 765-43-21</a></p>
                         </div>
                         <div class="contact-item">
-                            <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="Иконка телефона" width="50" height="50">
-                            <p><strong>Телефон:</strong><br>+7 (495) 123-45-67<br>+7 (495) 765-43-21</p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Иконка email" width="50" height="50" loading="lazy">
+                            <p><strong>Email:</strong><br><a href="mailto:info@restaurant-modern.by" rel="nofollow" itemprop="email">info@restaurant-modern.by</a></p>
                         </div>
-                        <div class="contact-item">
-                            <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Иконка email" width="50" height="50">
-                            <p><strong>Email:</strong><br><a href="mailto:info@restaurant-modern.by" rel="nofollow">info@restaurant-modern.by</a></p>
-                        </div>
-                        <div class="contact-item">
-                            <img src="https://cdn-icons-png.flaticon.com/512/833/833279.png" alt="Иконка времени работы" width="50" height="50">
+                        <div class="contact-item" itemscope itemprop="openingHoursSpecification" itemtype="https://schema.org/OpeningHoursSpecification">
+                            <img src="https://cdn-icons-png.flaticon.com/512/833/833279.png" alt="Иконка времени работы" width="50" height="50" loading="lazy">
                             <p><strong>Время работы:</strong><br>Пн-Чт: 12:00 - 23:00<br>Пт-Сб: 12:00 - 01:00<br>Вс: 13:00 - 22:00</p>
                         </div>
                     </div>
                     <div class="contact-form">
                         <h3>Забронировать столик</h3>
-                        <form id="bookingForm" action="#" method="post" aria-label="Форма бронирования столика">
+                        <form id="bookingForm" action="#" method="post" aria-label="Форма бронирования столика" itemscope itemtype="https://schema.org/ReserveAction">
+                            <meta itemprop="name" content="Бронирование столика">
                             <div class="form-group">
                                 <label for="name">Ваше имя</label>
-                                <input type="text" id="name" name="name" required aria-required="true">
+                                <input type="text" id="name" name="name" required aria-required="true" itemprop="agent" itemscope itemtype="https://schema.org/Person">
                             </div>
                             <div class="form-group">
                                 <label for="phone">Телефон</label>
@@ -734,23 +845,26 @@
         </section>
     </main>
 
+
     <!-- Footer -->
-    <footer role="contentinfo">
+    <footer role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
         <div class="container">
             <p>&copy; 2026 Ресторан Модерн. Все права защищены.</p>
             <p>Мы с нетерпением ждём встречи с Вами!</p>
             <div class="social-links">
-                <a href="#" rel="nofollow" title="Instagram" aria-label="Мы в Instagram">📷</a>
-                <a href="#" rel="nofollow" title="Facebook" aria-label="Мы в Facebook">📘</a>
-                <a href="#" rel="nofollow" title="VK" aria-label="Мы в VK">💬</a>
+                <a href="https://instagram.com/restaurantmodern" rel="noopener noreferrer" title="Instagram" aria-label="Мы в Instagram">📷</a>
+                <a href="https://facebook.com/restaurantmodern" rel="noopener noreferrer" title="Facebook" aria-label="Мы в Facebook">📘</a>
+                <a href="https://vk.com/restaurantmodern" rel="noopener noreferrer" title="VK" aria-label="Мы в VK">💬</a>
             </div>
         </div>
     </footer>
+
 
     <script>
         function filterMenu(category) {
             const items = document.querySelectorAll('.menu-item');
             const buttons = document.querySelectorAll('.menu-category');
+
 
             // Update active button
             buttons.forEach(btn => {
@@ -759,6 +873,7 @@
             });
             event.target.classList.add('active');
             event.target.setAttribute('aria-pressed', 'true');
+
 
             items.forEach(item => {
                 if (category === 'all' || item.dataset.category === category) {
@@ -769,11 +884,13 @@
             });
         }
 
+
         document.getElementById('bookingForm').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('Спасибо за вашу заявку! Мы свяжемся с вами в ближайшее время для подтверждения бронирования.');
             this.reset();
         });
+
 
         
         document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
@@ -789,6 +906,7 @@
             });
         });
 
+
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 100) {
@@ -800,22 +918,33 @@
     </script>
     
     <!-- Schema.org JSON-LD -->
-    <script type="application/ld+json">
+    <script type="application/ld+json" id="restaurantSchema">
 {
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Ресторан Модерн",
   "description": "Изысканная классическая и европейская кухня в центре Минска. Уютная атмосфера для деловых встреч, романтических ужинов и особых моментов.",
   "image": "https://cdn.pixabay.com/photo/2016/06/03/14/31/dinner-1433494_1280.jpg",
+  "logo": "Рисунок1.jpg",
+  "url": "https://ваш-сайт.by/",
+  "telephone": "+375291234567",
+  "email": "info@restaurant-modern.by",
+  "priceRange": "$$",
+  "servesCuisine": ["European", "Classical", "Italian", "Белорусская"],
+  "acceptsReservations": "True",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "пр-т Независимости, 19",
     "addressLocality": "Минск",
+    "addressRegion": "Минская область",
+    "postalCode": "220000",
     "addressCountry": "BY"
   },
-  "telephone": "+375291234567",
-  "priceRange": "$$",
-  "servesCuisine": ["European", "Classical", "Italian"],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "53.9045",
+    "longitude": "27.5615"
+  },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -841,7 +970,13 @@
     "https://instagram.com/restaurantmodern",
     "https://facebook.com/restaurantmodern",
     "https://vk.com/restaurantmodern"
-  ]
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "Минск"
+  },
+  "paymentAccepted": ["Наличные", "Банковская карта"],
+  "keywords": "ресторан Минск, европейская кухня, стейки, паста, банкет, романтический ужин, бизнес-ланч"
 }
 </script>
 </body>
