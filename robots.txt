@@ -1,5 +1,6 @@
 User-agent: *
-Allow: /# Запрещаем доступ к техническим страницамDisallow: /cgi-bin/
+Allow: /# Запрещаем доступ к техническим страницам 
+Disallow: /cgi-bin/
 Disallow: /admin/
 Disallow: /?s=
 Sitemap: https://ваш-сайт.by/sitemap.xml
