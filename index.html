@@ -70,13 +70,11 @@
             box-sizing: border-box;
         }
 
-
         body {
             font-family: 'Georgia', serif;
             color: #333;
             line-height: 1.6;
         }
-
 
         /* Header */
         header {
@@ -89,7 +87,6 @@
             z-index: 1000;
         }
 
-
         .header-content {
             max-width: 1200px;
             margin: 0 auto;
@@ -99,13 +96,11 @@
             padding: 0 20px;
         }
 
-
         .logo {
             display: flex;
             align-items: center;
             gap: 15px;
         }
-
 
         .logo img {
             width: 80px;
@@ -113,20 +108,17 @@
             border-radius: 50%;
         }
 
-
         .logo h1 {
             font-size: 1.8rem;
             font-weight: normal;
             letter-spacing: 2px;
         }
 
-
         nav ul {
             display: flex;
             list-style: none;
             gap: 30px;
         }
-
 
         nav a {
             color: white;
@@ -135,11 +127,9 @@
             transition: color 0.3s;
         }
 
-
         nav a:hover {
             color: #c9a962;
         }
-
 
         /* Hero Section */
         .hero {
@@ -152,11 +142,9 @@
             padding: 0 20px;
         }
 
-
         .hero-content {
             max-width: 800px;
         }
-
 
         .hero h2 {
             font-size: 2.8rem;
@@ -168,7 +156,6 @@
             color: #fff;
         }
 
-
         .hero p {
             font-size: 1.5rem;
             margin-bottom: 35px;
@@ -179,7 +166,6 @@
             line-height: 1.6;
         }
 
-
         .btn {
             display: inline-block;
             padding: 15px 40px;
@@ -189,20 +175,19 @@
             font-size: 1.1rem;
             transition: all 0.3s;
             border: 2px solid #c9a962;
+            cursor: pointer;
+            font-family: inherit;
         }
-
 
         .btn:hover {
             background: transparent;
             color: #c9a962;
         }
 
-
         /* Sections */
         section {
             padding: 80px 20px;
         }
-
 
         .section-title {
             text-align: center;
@@ -211,18 +196,15 @@
             color: #2c2c2c;
         }
 
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
         }
 
-
         /* About */
         .about {
             background: #f9f9f9;
         }
-
 
         .about-content {
             display: grid;
@@ -231,13 +213,11 @@
             align-items: center;
         }
 
-
         .about-text p {
             font-size: 1.1rem;
             margin-bottom: 20px;
             text-align: justify;
         }
-
 
         .about-image img {
             width: 100%;
@@ -245,25 +225,21 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
-
         /* Features */
         .features {
             background: #2c2c2c;
             color: white;
         }
 
-
         .features .section-title {
             color: white;
         }
-
 
         .features-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 40px;
         }
-
 
         .feature-card {
             text-align: center;
@@ -273,11 +249,9 @@
             transition: transform 0.3s;
         }
 
-
         .feature-card:hover {
             transform: translateY(-10px);
         }
-
 
         .feature-card img {
             width: 80px;
@@ -287,33 +261,29 @@
             object-fit: cover;
         }
 
-
         .feature-card h3 {
             font-size: 1.4rem;
             margin-bottom: 15px;
             color: #c9a962;
         }
 
-
         .feature-card p {
             font-size: 1rem;
             opacity: 0.9;
         }
-
 
         /* Menu */
         .menu {
             background: #fff;
         }
 
-
         .menu-categories {
             display: flex;
             justify-content: center;
             gap: 30px;
             margin-bottom: 50px;
+            flex-wrap: wrap;
         }
-
 
         .menu-category {
             padding: 12px 30px;
@@ -326,20 +296,17 @@
             border-radius: 5px;
         }
 
-
         .menu-category.active,
         .menu-category:hover {
             background: #c9a962;
             color: white;
         }
 
-
         .menu-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 40px;
         }
-
 
         .menu-item {
             display: flex;
@@ -350,11 +317,9 @@
             transition: box-shadow 0.3s;
         }
 
-
         .menu-item:hover {
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
-
 
         .menu-item img {
             width: 150px;
@@ -363,13 +328,11 @@
             border-radius: 10px;
         }
 
-
         .menu-item-content h3 {
             font-size: 1.4rem;
             margin-bottom: 10px;
             color: #2c2c2c;
         }
-
 
         .menu-item-content p {
             font-size: 0.95rem;
@@ -377,13 +340,11 @@
             margin-bottom: 15px;
         }
 
-
         .price {
             font-size: 1.3rem;
             color: #c9a962;
             font-weight: bold;
         }
-
 
         /* Atmosphere */
         .atmosphere {
@@ -391,18 +352,15 @@
             color: white;
         }
 
-
         .atmosphere .section-title {
             color: white;
         }
-
 
         .audience-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 40px;
         }
-
 
         .audience-card {
             text-align: center;
@@ -412,12 +370,10 @@
             transition: all 0.3s;
         }
 
-
         .audience-card:hover {
             background: rgba(201, 169, 98, 0.2);
             border-color: #c9a962;
         }
-
 
         .audience-card h3 {
             font-size: 1.5rem;
@@ -426,19 +382,16 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
 
-
         .audience-card p {
             font-size: 1.05rem;
             line-height: 1.8;
             text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
         }
 
-
         /* Contact */
         .contact {
             background: #f9f9f9;
         }
-
 
         .contact-content {
             display: grid;
@@ -446,13 +399,11 @@
             gap: 60px;
         }
 
-
         .contact-info h3 {
             font-size: 1.8rem;
             margin-bottom: 30px;
             color: #2c2c2c;
         }
-
 
         .contact-item {
             display: flex;
@@ -460,7 +411,6 @@
             gap: 20px;
             margin-bottom: 25px;
         }
-
 
         .contact-item img {
             width: 50px;
@@ -470,12 +420,10 @@
             padding: 12px;
         }
 
-
         .contact-item p {
             font-size: 1.1rem;
             line-height: 1.6;
         }
-
 
         .contact-form {
             background: white;
@@ -484,18 +432,15 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
-
         .contact-form h3 {
             font-size: 1.5rem;
             margin-bottom: 30px;
             color: #2c2c2c;
         }
 
-
         .form-group {
             margin-bottom: 20px;
         }
-
 
         .form-group label {
             display: block;
@@ -503,7 +448,6 @@
             font-weight: bold;
             color: #2c2c2c;
         }
-
 
         .form-group input,
         .form-group textarea {
@@ -515,12 +459,10 @@
             font-size: 1rem;
         }
 
-
         .form-group textarea {
             resize: vertical;
             min-height: 120px;
         }
-
 
         .contact-form .btn {
             width: 100%;
@@ -528,7 +470,6 @@
             cursor: pointer;
             font-family: inherit;
         }
-
 
         /* Footer */
         footer {
@@ -538,11 +479,9 @@
             text-align: center;
         }
 
-
         footer p {
             margin-bottom: 10px;
         }
-
 
         .social-links {
             display: flex;
@@ -550,7 +489,6 @@
             gap: 20px;
             margin-top: 20px;
         }
-
 
         .social-links a {
             display: inline-block;
@@ -566,11 +504,454 @@
             transition: transform 0.3s;
         }
 
-
         .social-links a:hover {
             transform: scale(1.1);
         }
 
+        /* ========== ЛИЧНЫЙ КАБИНЕТ ========== */
+        .cabinet {
+            background: #f9f9f9;
+            display: none;
+        }
+
+        .cabinet.active {
+            display: block;
+        }
+
+        .cabinet-content {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 40px;
+        }
+
+        .cabinet-sidebar {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            height: fit-content;
+        }
+
+        .cabinet-sidebar h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: #2c2c2c;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #c9a962;
+        }
+
+        .cabinet-menu-item {
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .cabinet-menu-item:hover,
+        .cabinet-menu-item.active {
+            background: #c9a962;
+            color: white;
+        }
+
+        .cabinet-main {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .cabinet-section {
+            display: none;
+        }
+
+        .cabinet-section.active {
+            display: block;
+        }
+
+        .cabinet-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #2c2c2c;
+        }
+
+        .booking-card {
+            background: linear-gradient(135deg, #f9f9f9 0%, #fff 100%);
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s;
+        }
+
+        .booking-card:hover {
+            border-color: #c9a962;
+            box-shadow: 0 5px 20px rgba(201, 169, 98, 0.2);
+        }
+
+        .booking-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .booking-card-header h4 {
+            font-size: 1.2rem;
+            color: #2c2c2c;
+        }
+
+        .booking-status {
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        .booking-status.confirmed {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .booking-status.pending {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .booking-details {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .booking-detail {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .booking-detail-label {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .booking-detail-value {
+            font-size: 1rem;
+            color: #2c2c2c;
+            font-weight: 500;
+        }
+
+        .no-bookings {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .no-bookings p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .user-info-card {
+            background: linear-gradient(135deg, #c9a962 0%, #a88b4a 100%);
+            border-radius: 12px;
+            padding: 25px;
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        .user-info-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .user-info-card p {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        /* ========== ЧАТ-БОТ ========== */
+        .chatbot-toggle {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #c9a962 0%, #a88b4a 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+            z-index: 9999;
+            transition: transform 0.3s;
+        }
+
+        .chatbot-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .chatbot-toggle img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .chatbot-window {
+            position: fixed;
+            bottom: 120px;
+            right: 30px;
+            width: 380px;
+            height: 520px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            z-index: 9998;
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chatbot-window.active {
+            display: flex;
+        }
+
+        .chatbot-header {
+            background: linear-gradient(135deg, #c9a962 0%, #a88b4a 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .chatbot-avatar {
+            width: 50px;
+            height: 50px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .chatbot-header-info h4 {
+            font-size: 1.1rem;
+            margin-bottom: 3px;
+        }
+
+        .chatbot-header-info p {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+
+        .chatbot-close {
+            margin-left: auto;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 5px;
+            line-height: 1;
+        }
+
+        .chatbot-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .chat-message {
+            max-width: 85%;
+            padding: 12px 16px;
+            border-radius: 15px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .chat-message.bot {
+            background: #f5f5f5;
+            color: #333;
+            border-bottom-left-radius: 5px;
+            align-self: flex-start;
+        }
+
+        .chat-message.user {
+            background: #c9a962;
+            color: white;
+            border-bottom-right-radius: 5px;
+            align-self: flex-end;
+        }
+
+        .chat-suggestions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .chat-suggestion {
+            background: #f0f0f0;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+
+        .chat-suggestion:hover {
+            background: #c9a962;
+            color: white;
+        }
+
+        .chatbot-input {
+            padding: 15px;
+            border-top: 1px solid #eee;
+            display: flex;
+            gap: 10px;
+        }
+
+        .chatbot-input input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            outline: none;
+        }
+
+        .chatbot-input input:focus {
+            border-color: #c9a962;
+        }
+
+        .chatbot-input button {
+            width: 45px;
+            height: 45px;
+            background: #c9a962;
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chatbot-input button:hover {
+            background: #a88b4a;
+        }
+
+        /* Login Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            width: 90%;
+            max-width: 450px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .modal h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #2c2c2c;
+            text-align: center;
+        }
+
+        .modal p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .modal .form-group {
+            margin-bottom: 20px;
+        }
+
+        .modal .btn {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #666;
+        }
+
+        .auth-tabs {
+            display: flex;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .auth-tab {
+            flex: 1;
+            padding: 12px;
+            background: none;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            font-family: inherit;
+            color: #666;
+            transition: all 0.3s;
+        }
+
+        .auth-tab.active {
+            color: #c9a962;
+            border-bottom: 2px solid #c9a962;
+            margin-bottom: -2px;
+        }
+
+        .auth-form {
+            display: none;
+        }
+
+        .auth-form.active {
+            display: block;
+        }
+
+        .login-btn {
+            position: relative;
+        }
+
+        .login-btn::after {
+            content: '👤';
+            margin-left: 8px;
+        }
 
         /* Responsive */
         @media (max-width: 768px) {
@@ -579,24 +960,21 @@
                 gap: 20px;
             }
 
-
             nav ul {
                 flex-wrap: wrap;
                 justify-content: center;
                 gap: 15px;
             }
 
-
             .hero h2 {
                 font-size: 2.5rem;
             }
 
-
             .about-content,
-            .contact-content {
+            .contact-content,
+            .cabinet-content {
                 grid-template-columns: 1fr;
             }
-
 
             .features-grid,
             .menu-grid,
@@ -604,21 +982,33 @@
                 grid-template-columns: 1fr;
             }
 
-
             .menu-item {
                 flex-direction: column;
             }
-
 
             .menu-item img {
                 width: 100%;
                 height: 200px;
             }
+
+            .chatbot-window {
+                width: calc(100% - 40px);
+                right: 20px;
+                bottom: 100px;
+                height: 450px;
+            }
+
+            .booking-details {
+                grid-template-columns: 1fr;
+            }
+
+            .cabinet-sidebar {
+                order: -1;
+            }
         }
     </style>
 </head>
 <body>
-
 
     <!-- Header -->
     <header role="banner" itemscope itemtype="https://schema.org/WPHeader">
@@ -634,11 +1024,11 @@
                     <li><a href="#menu" itemprop="url"><span itemprop="name">Меню</span></a></li>
                     <li><a href="#atmosphere" itemprop="url"><span itemprop="name">Атмосфера</span></a></li>
                     <li><a href="#contact" itemprop="url"><span itemprop="name">Контакты</span></a></li>
+                    <li><a href="#" class="login-btn" id="loginBtn" itemprop="url"><span itemprop="name">Личный кабинет</span></a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
 
     <!-- Main Content -->
     <main role="main" itemscope itemtype="https://schema.org/WebPageElement" itemprop="mainContentOfPage">
@@ -650,7 +1040,6 @@
                 <a href="#menu" class="btn" aria-label="Просмотреть меню ресторана">Просмотреть меню</a>
             </div>
         </section>
-
 
         <!-- About Section -->
         <section id="about" class="about" aria-labelledby="about-title" itemscope itemtype="https://schema.org/AboutPage">
@@ -668,7 +1057,6 @@
                 </div>
             </div>
         </section>
-
 
         <!-- Features Section -->
         <section id="features" class="features" aria-labelledby="features-title" itemscope itemtype="https://schema.org/CreativeWork">
@@ -693,7 +1081,6 @@
                 </div>
             </div>
         </section>
-
 
         <!-- Menu Section -->
         <section id="menu" class="menu" aria-labelledby="menu-title" itemscope itemtype="https://schema.org/ItemPage">
@@ -766,7 +1153,6 @@
             </div>
         </section>
 
-
         <!-- Atmosphere Section -->
         <section id="atmosphere" class="atmosphere" aria-labelledby="atmosphere-title" itemscope itemtype="https://schema.org/CreativeWork">
             <div class="container">
@@ -787,7 +1173,6 @@
                 </div>
             </div>
         </section>
-
 
         <!-- Contact Section -->
         <section id="contact" class="contact" aria-labelledby="contact-title" itemscope itemtype="https://schema.org/ContactPage">
@@ -843,8 +1228,59 @@
                 </div>
             </div>
         </section>
-    </main>
 
+        <!-- Личный кабинет -->
+        <section id="cabinet" class="cabinet" aria-labelledby="cabinet-title">
+            <div class="container">
+                <h2 id="cabinet-title" class="section-title">Личный кабинет</h2>
+                <div class="cabinet-content">
+                    <div class="cabinet-sidebar">
+                        <h3>Меню</h3>
+                        <div class="cabinet-menu-item active" data-section="bookings" onclick="showCabinetSection('bookings')">
+                            📋 Мои бронирования
+                        </div>
+                        <div class="cabinet-menu-item" data-section="profile" onclick="showCabinetSection('profile')">
+                            👤 Профиль
+                        </div>
+                        <div class="cabinet-menu-item" onclick="logout()">
+                            🚪 Выйти
+                        </div>
+                    </div>
+                    <div class="cabinet-main">
+                        <!-- Секция бронирований -->
+                        <div class="cabinet-section active" id="cabinet-bookings">
+                            <h2>Мои бронирования</h2>
+                            <div id="bookingsList">
+                                <!-- Бронирования будут добавлены здесь -->
+                            </div>
+                        </div>
+                        <!-- Секция профиля -->
+                        <div class="cabinet-section" id="cabinet-profile">
+                            <h2>Информация о профиле</h2>
+                            <div class="user-info-card">
+                                <h4 id="profileName">Гость</h4>
+                                <p id="profileEmail">Для изменения данных войдите в систему</p>
+                            </div>
+                            <div class="booking-details">
+                                <div class="booking-detail">
+                                    <span class="booking-detail-label">Всего бронирований</span>
+                                    <span class="booking-detail-value" id="totalBookings">0</span>
+                                </div>
+                                <div class="booking-detail">
+                                    <span class="booking-detail-label">Подтверждённых</span>
+                                    <span class="booking-detail-value" id="confirmedBookings">0</span>
+                                </div>
+                                <div class="booking-detail">
+                                    <span class="booking-detail-label">Статус</span>
+                                    <span class="booking-detail-value" id="userStatus">Новый гость</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
@@ -859,21 +1295,86 @@
         </div>
     </footer>
 
+    <!-- Чат-бот -->
+    <div class="chatbot-toggle" onclick="toggleChatbot()" aria-label="Открыть чат-бот">
+        <span style="font-size: 2rem;">💬</span>
+    </div>
+
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chatbot-header">
+            <div class="chatbot-avatar">🤖</div>
+            <div class="chatbot-header-info">
+                <h4>Ассистент Модерн</h4>
+                <p>Всегда готов помочь</p>
+            </div>
+            <button class="chatbot-close" onclick="toggleChatbot()">×</button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <!-- Сообщения будут добавлены здесь -->
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbotInput" placeholder="Напишите ваш вопрос..." onkeypress="handleChatKeyPress(event)">
+            <button onclick="sendChatMessage()">➤</button>
+        </div>
+    </div>
+
+    <!-- Модальное окно входа/регистрации -->
+    <div class="modal-overlay" id="authModal">
+        <div class="modal">
+            <h2>Добро пожаловать!</h2>
+            <p>Войдите или зарегистрируйтесь для доступа к личному кабинету</p>
+            
+            <div class="auth-tabs">
+                <button class="auth-tab active" onclick="showAuthForm('login')">Вход</button>
+                <button class="auth-tab" onclick="showAuthForm('register')">Регистрация</button>
+            </div>
+
+            <!-- Форма входа -->
+            <form class="auth-form active" id="loginForm" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Пароль</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="btn">Войти</button>
+            </form>
+
+            <!-- Форма регистрации -->
+            <form class="auth-form" id="registerForm" onsubmit="handleRegister(event)">
+                <div class="form-group">
+                    <label for="registerName">Имя</label>
+                    <input type="text" id="registerName" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Пароль</label>
+                    <input type="password" id="registerPassword" required>
+                </div>
+                <button type="submit" class="btn">Зарегистрироваться</button>
+            </form>
+
+            <button class="btn" style="background: #666; border-color: #666;" onclick="closeAuthModal()">Продолжить как гость</button>
+        </div>
+    </div>
 
     <script>
+        // ========== ФИЛЬТР МЕНЮ ==========
         function filterMenu(category) {
             const items = document.querySelectorAll('.menu-item');
             const buttons = document.querySelectorAll('.menu-category');
 
-
-            // Update active button
             buttons.forEach(btn => {
                 btn.classList.remove('active');
                 btn.setAttribute('aria-pressed', 'false');
             });
             event.target.classList.add('active');
             event.target.setAttribute('aria-pressed', 'true');
-
 
             items.forEach(item => {
                 if (category === 'all' || item.dataset.category === category) {
@@ -884,19 +1385,366 @@
             });
         }
 
-
+        // ========== БРОНИРОВАНИЕ ==========
         document.getElementById('bookingForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Спасибо за вашу заявку! Мы свяжемся с вами в ближайшее время для подтверждения бронирования.');
+            
+            const formData = {
+                id: Date.now(),
+                name: document.getElementById('name').value,
+                phone: document.getElementById('phone').value,
+                date: document.getElementById('date').value,
+                guests: document.getElementById('guests').value,
+                message: document.getElementById('message').value,
+                status: 'confirmed',
+                createdAt: new Date().toISOString()
+            };
+
+            // Сохраняем бронирование
+            let bookings = JSON.parse(localStorage.getItem('restaurant_bookings') || '[]');
+            bookings.push(formData);
+            localStorage.setItem('restaurant_bookings', JSON.stringify(bookings));
+
+            alert('Спасибо за вашу заявку! Мы свяжемся с вами в ближайшее время для подтверждения бронирования.\n\nВы можете посмотреть ваши бронирования в личном кабинете.');
             this.reset();
+            
+            // Обновляем отображение бронирований
+            renderBookings();
         });
 
+        // ========== ЛИЧНЫЙ КАБИНЕТ ==========
+        let isLoggedIn = false;
+        let currentUser = null;
 
-        
+        // Проверка авторизации при загрузке
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedUser = localStorage.getItem('restaurant_user');
+            if (savedUser) {
+                currentUser = JSON.parse(savedUser);
+                isLoggedIn = true;
+                updateLoginButton();
+            }
+            renderBookings();
+        });
+
+        function updateLoginButton() {
+            const loginBtn = document.getElementById('loginBtn');
+            if (isLoggedIn && currentUser) {
+                loginBtn.innerHTML = '<span itemprop="name">👤 ' + currentUser.name + '</span>';
+            } else {
+                loginBtn.innerHTML = '<span itemprop="name">Личный кабинет</span>';
+            }
+        }
+
+        document.getElementById('loginBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            if (isLoggedIn) {
+                showCabinet();
+            } else {
+                openAuthModal();
+            }
+        });
+
+        function openAuthModal() {
+            document.getElementById('authModal').classList.add('active');
+        }
+
+        function closeAuthModal() {
+            document.getElementById('authModal').classList.remove('active');
+        }
+
+        function showAuthForm(type) {
+            document.querySelectorAll('.auth-tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.auth-form').forEach(form => form.classList.remove('active'));
+            
+            if (type === 'login') {
+                document.querySelector('.auth-tab:first-child').classList.add('active');
+                document.getElementById('loginForm').classList.add('active');
+            } else {
+                document.querySelector('.auth-tab:last-child').classList.add('active');
+                document.getElementById('registerForm').classList.add('active');
+            }
+        }
+
+        function handleLogin(e) {
+            e.preventDefault();
+            const email = document.getElementById('loginEmail').value;
+            
+            currentUser = {
+                name: email.split('@')[0],
+                email: email
+            };
+            isLoggedIn = true;
+            localStorage.setItem('restaurant_user', JSON.stringify(currentUser));
+            
+            updateLoginButton();
+            closeAuthModal();
+            showCabinet();
+        }
+
+        function handleRegister(e) {
+            e.preventDefault();
+            const name = document.getElementById('registerName').value;
+            const email = document.getElementById('registerEmail').value;
+            
+            currentUser = {
+                name: name,
+                email: email
+            };
+            isLoggedIn = true;
+            localStorage.setItem('restaurant_user', JSON.stringify(currentUser));
+            
+            updateLoginButton();
+            closeAuthModal();
+            showCabinet();
+        }
+
+        function logout() {
+            currentUser = null;
+            isLoggedIn = false;
+            localStorage.removeItem('restaurant_user');
+            updateLoginButton();
+            
+            // Скрываем личный кабинет
+            document.getElementById('cabinet').classList.remove('active');
+            
+            // Прокручиваем наверх
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function showCabinet() {
+            document.getElementById('cabinet').classList.add('active');
+            document.getElementById('cabinet').scrollIntoView({ behavior: 'smooth' });
+            renderBookings();
+            updateProfile();
+        }
+
+        function showCabinetSection(section) {
+            document.querySelectorAll('.cabinet-menu-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.dataset.section === section) {
+                    item.classList.add('active');
+                }
+            });
+            
+            document.querySelectorAll('.cabinet-section').forEach(sec => {
+                sec.classList.remove('active');
+            });
+            document.getElementById('cabinet-' + section).classList.add('active');
+        }
+
+        function renderBookings() {
+            const bookingsList = document.getElementById('bookingsList');
+            const bookings = JSON.parse(localStorage.getItem('restaurant_bookings') || '[]');
+            
+            if (bookings.length === 0) {
+                bookingsList.innerHTML = `
+                    <div class="no-bookings">
+                        <p>У вас пока нет бронирований</p>
+                        <a href="#contact" class="btn">Забронировать столик</a>
+                    </div>
+                `;
+                return;
+            }
+
+            // Сортируем по дате (новые сверху)
+            bookings.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+            let html = '';
+            bookings.forEach(booking => {
+                const date = new Date(booking.date);
+                const formattedDate = date.toLocaleDateString('ru-RU', { 
+                    weekday: 'long', 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                });
+
+                html += `
+                    <div class="booking-card">
+                        <div class="booking-card-header">
+                            <h4>Бронирование #${booking.id}</h4>
+                            <span class="booking-status ${booking.status}">
+                                ${booking.status === 'confirmed' ? 'Подтверждено' : 'Ожидание'}
+                            </span>
+                        </div>
+                        <div class="booking-details">
+                            <div class="booking-detail">
+                                <span class="booking-detail-label">Дата</span>
+                                <span class="booking-detail-value">${formattedDate}</span>
+                            </div>
+                            <div class="booking-detail">
+                                <span class="booking-detail-label">Время</span>
+                                <span class="booking-detail-value">19:00</span>
+                            </div>
+                            <div class="booking-detail">
+                                <span class="booking-detail-label">Гости</span>
+                                <span class="booking-detail-value">${booking.guests} чел.</span>
+                            </div>
+                        </div>
+                        ${booking.message ? '<p style="margin-top: 15px; color: #666;"><strong>Пожелания:</strong> ' + booking.message + '</p>' : ''}
+                    </div>
+                `;
+            });
+
+            bookingsList.innerHTML = html;
+        }
+
+        function updateProfile() {
+            if (currentUser) {
+                document.getElementById('profileName').textContent = currentUser.name;
+                document.getElementById('profileEmail').textContent = currentUser.email;
+            }
+
+            const bookings = JSON.parse(localStorage.getItem('restaurant_bookings') || '[]');
+            document.getElementById('totalBookings').textContent = bookings.length;
+            document.getElementById('confirmedBookings').textContent = bookings.filter(b => b.status === 'confirmed').length;
+            
+            if (bookings.length >= 5) {
+                document.getElementById('userStatus').textContent = 'Постоянный гость ★★★';
+            } else if (bookings.length >= 2) {
+                document.getElementById('userStatus').textContent = 'Постоянный гость ★★';
+            } else if (bookings.length >= 1) {
+                document.getElementById('userStatus').textContent = 'Постоянный гость ★';
+            } else {
+                document.getElementById('userStatus').textContent = 'Новый гость';
+            }
+        }
+
+        // ========== ЧАТ-БОТ ==========
+        const chatbotKnowledge = {
+            'адрес': 'Наш ресторан находится по адресу: пр-т Независимости, 19, Минск. Мы находимся в самом центре города!',
+            'где': 'Наш ресторан находится по адресу: пр-т Независимости, 19, Минск. Мы находимся в самом центре города!',
+            'место': 'Наш ресторан находится по адресу: пр-т Независимости, 19, Минск. Мы находимся в самом центре города!',
+            'время': 'Время работы ресторана:\n• Пн-Чт: 12:00 - 23:00\n• Пт-Сб: 12:00 - 01:00\n• Вс: 13:00 - 22:00',
+            'работа': 'Время работы ресторана:\n• Пн-Чт: 12:00 - 23:00\n• Пт-Сб: 12:00 - 01:00\n• Вс: 13:00 - 22:00',
+            'график': 'Время работы ресторана:\n• Пн-Чт: 12:00 - 23:00\n• Пт-Сб: 12:00 - 01:00\n• Вс: 13:00 - 22:00',
+            'телефон': 'Телефоны для связи:\n• +375 29 123-45-67\n• +375 29 765-43-21\n\nМы всегда рады ответить на ваши вопросы!',
+            'звонить': 'Телефоны для связи:\n• +375 29 123-45-67\n• +375 29 765-43-21\n\nМы всегда рады ответить на ваши вопросы!',
+            'контакты': 'Контакты ресторана:\n• Адрес: пр-т Независимости, 19, Минск\n• Телефон: +375 29 123-45-67\n• Email: info@restaurant-modern.by',
+            'забронировать': 'Забронировать столик можно:\n1. Заполнив форму на сайте в разделе "Контакты"\n2. Позвонив по телефону +375 29 123-45-67\n\nРекомендуем бронировать заранее, особенно на выходные!',
+            'бронь': 'Забронировать столик можно:\n1. Заполнив форму на сайте в разделе "Контакты"\n2. Позвонив по телефону +375 29 123-45-67\n\nРекомендуем бронировать заранее, особенно на выходные!',
+            'бронирование': 'Забронировать столик можно:\n1. Заполнив форму на сайте в разделе "Контакты"\n2. Позвонив по телефону +375 29 123-45-67\n\nРекомендуем бронировать заранее, особенно на выходные!',
+            'меню': 'В нашем меню представлены:\n🥗 Закуски: Салат Цезарь, Брускетты с томатами\n🍖 Основные блюда: Стейк Рибай, Паста Карбонара, Лосось под сливочным соусом\n🍰 Десерты: Тирамису, Чизкейк Нью-Йорк\n\nЦены от 15 до 40 BYN',
+            'блюда': 'В нашем меню представлены:\n🥗 Закуски: Салат Цезарь, Брускетты с томатами\n🍖 Основные блюда: Стейк Рибай, Паста Карбонара, Лосось под сливочным соусом\n🍰 Десерты: Тирамису, Чизкейк Нью-Йорк\n\nЦены от 15 до 40 BYN',
+            'цена': 'Цены в нашем ресторане:\n• Закуски: 15-25 BYN\n• Основные блюда: 30-40 BYN\n• Десерты: 25-39 BYN\n\nСредний чек: 50-70 BYN на человека',
+            'цены': 'Цены в нашем ресторане:\n• Закуски: 15-25 BYN\n• Основные блюда: 30-40 BYN\n• Десерты: 25-39 BYN\n\nСредний чек: 50-70 BYN на человека',
+            'стоимость': 'Цены в нашем ресторане:\n• Закуски: 15-25 BYN\n• Основные блюда: 30-40 BYN\n• Десерты: 25-39 BYN\n\nСредний чек: 50-70 BYN на человека',
+            'стейк': 'Стейк Рибай — 35 BYN. Сочный стейк из говядины с овощами гриль и соусом из красного вина. Один из наших хитов!',
+            'паста': 'Паста Карбонара — 30 BYN. Итальянская паста с беконом, яичным желтком и пармезаном. Готовится по классическому рецепту.',
+            'тирамису': 'Тирамису — 39 BYN. Классический итальянский десерт с маскарпоне и кофейным бисквитом. Нежнейший вкус!',
+            'чизкейк': 'Чизкейк Нью-Йорк — 25 BYN. Нежнейший чизкейк с ягодным соусом и взбитыми сливками.',
+            'лосось': 'Лосось под сливочным соусом — 40 BYN. Нежное филе лосося с сливочным соусом и овощным гарниром.',
+            'бизнес': 'Мы идеально подходим для деловых встреч! У нас есть уютные переговорные зоны, тихая атмосфера и специальное бизнес-меню на обеденное время.',
+            'деловой': 'Мы идеально подходим для деловых встреч! У нас есть уютные переговорные зоны, тихая атмосфера и специальное бизнес-меню на обеденное время.',
+            'романтик': 'Для романтических ужинов у нас есть уютные столики для двоих, приглушённое освещение и специальное романтическое меню. Идеально для свиданий!',
+            'свидание': 'Для романтических ужинов у нас есть уютные столики для двоих, приглушённое освещение и специальное романтическое меню. Идеально для свиданий!',
+            'банкет': 'Мы организуем банкеты любого формата: свадьбы, юбилеи, корпоративы. Меню согласовывается индивидуально. Звоните для обсуждения деталей!',
+            'корпоратив': 'Мы организуем банкеты любого формата: свадьбы, юбилеи, корпоративы. Меню согласовывается индивидуально. Звоните для обсуждения деталей!',
+            'кабинет': 'Личный кабинет позволяет:\n• Просматривать историю бронирований\n• Управлять своими данными\n• Отслеживать статус бронирований\n\nВойдите или зарегистрируйтесь для доступа!',
+            'личный': 'Личный кабинет позволяет:\n• Просматривать историю бронирований\n• Управлять своими данными\n• Отслеживать статус бронирований\n\nВойдите или зарегистрируйтесь для доступа!'
+        };
+
+        function toggleChatbot() {
+            const window = document.getElementById('chatbotWindow');
+            window.classList.toggle('active');
+            
+            if (window.classList.contains('active') && document.getElementById('chatbotMessages').children.length === 0) {
+                addBotMessage('Здравствуйте! Я — ассистент ресторана "Модерн". Могу рассказать о нашем меню, ценах, времени работы, забронировать столик и ответить на другие вопросы. Чем могу помочь?', true);
+            }
+        }
+
+        function addBotMessage(text, showSuggestions = false) {
+            const messages = document.getElementById('chatbotMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'chat-message bot';
+            messageDiv.textContent = text;
+            messages.appendChild(messageDiv);
+            
+            if (showSuggestions) {
+                const suggestionsDiv = document.createElement('div');
+                suggestionsDiv.className = 'chat-suggestions';
+                suggestionsDiv.innerHTML = `
+                    <button class="chat-suggestion" onclick="sendQuickMessage('меню')">🍽️ Меню</button>
+                    <button class="chat-suggestion" onclick="sendQuickMessage('забронировать')">📅 Забронировать</button>
+                    <button class="chat-suggestion" onclick="sendQuickMessage('адрес')">📍 Адрес</button>
+                    <button class="chat-suggestion" onclick="sendQuickMessage('время работы')">🕐 Время работы</button>
+                `;
+                messages.appendChild(suggestionsDiv);
+            }
+            
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function addUserMessage(text) {
+            const messages = document.getElementById('chatbotMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'chat-message user';
+            messageDiv.textContent = text;
+            messages.appendChild(messageDiv);
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function sendQuickMessage(message) {
+            addUserMessage(message);
+            setTimeout(() => processMessage(message), 300);
+        }
+
+        function sendChatMessage() {
+            const input = document.getElementById('chatbotInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            addUserMessage(message);
+            input.value = '';
+            
+            setTimeout(() => processMessage(message), 300);
+        }
+
+        function handleChatKeyPress(e) {
+            if (e.key === 'Enter') {
+                sendChatMessage();
+            }
+        }
+
+        function processMessage(message) {
+            const lowerMessage = message.toLowerCase();
+            let response = null;
+            let found = false;
+
+            // Ищем ключевые слова в вопросе
+            for (const [keyword, answer] of Object.entries(chatbotKnowledge)) {
+                if (lowerMessage.includes(keyword)) {
+                    response = answer;
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found) {
+                response = 'Извините, я не совсем понял ваш вопрос. Попробуйте спросить о:\n• Нашем меню и ценах\n• Времени работы\n• Бронировании столика\n• Нашем адресе\n• Особенностях ресторана\n\nИли позвоните нам: +375 29 123-45-67';
+            }
+
+            addBotMessage(response, found);
+        }
+
+        // ========== ПЛАВНАЯ ПРОКРУТКА ==========
         document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const targetId = this.getAttribute('href');
+                
+                if (targetId === '#cabinet') {
+                    if (isLoggedIn) {
+                        showCabinet();
+                    } else {
+                        openAuthModal();
+                    }
+                    return;
+                }
+                
+                const target = document.querySelector(targetId);
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth',
@@ -906,7 +1754,7 @@
             });
         });
 
-
+        // ========== ЭФФЕКТ ПРИ ПРОКРУТКЕ ==========
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 100) {
